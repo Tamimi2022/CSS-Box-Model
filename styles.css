@@ -1,0 +1,74 @@
+body {
+  color: red;
+  border: 10px dotted black;
+  padding: 15px;
+  background: lightblue;
+  background-clip: padding-box;
+}
+
+.black-border {
+  border: 5px solid black;
+  text-align: center;
+}
+
+#green-background {
+  background-color: green;
+  border-style: inset;
+}
+p {
+  font-style: oblique;
+}
+footer {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: xx-large;
+}
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+img {
+  border: 3px solid white;
+}
+.gold-border {
+  border: 5px dotted gold;
+  text-align: center;
+  border-style: solid;
+}
+span ul li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+  padding: 70px;
+  font-size: 150%;
+}
+.box-1 {
+  background-color: #333;
+}
+.box-1 a {
+  color: #fff;
+  text-decoration: none;
+}
+.my-form {
+  padding: 20px;
+}
+.my-form .form-contact {
+  padding-bottom: 15px;
+}
+.my-form label {
+  display: block;
+}
+.my-form input[type="text"],
+.my-form textarea {
+  padding: 8px;
+  width: 100%;
+}
+.my-form input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+}
